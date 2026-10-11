@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.zip
+*.iso
+*.wim
+*.msi
+*.cab
+*.bin
+*.dll
+*.exe
+*.ttf
+*.wav
