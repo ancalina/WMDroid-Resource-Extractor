@@ -68,6 +68,39 @@ words for 1900–2049 and Korean day, month and leap-month captions. The file
 contains data only. Applications load this optional data for lunar calendar display.
 USA and Vista packs omit it.
 
+## Language and installation
+
+The launcher UI language and resource-pack language are separate. A pack does
+not change UI translations. By default, WMDroid follows the device language:
+Korean uses Korean UI; English uses English UI. On Android 7.0 or later, the
+first supported language in the device language list is used. If no language
+is supported, the UI uses English. An explicit language selection overrides
+this behavior.
+
+For Korean resources, use the Korean ROM command above. For English resources,
+use the supported USA emulator MSI:
+
+```sh
+python3 extract_pack.py --vista-iso /path/vista_x64.iso \
+  --sdk-msi /path/emulator-images-usa.msi --output /path/resources-en.zip
+```
+
+The Vista ISO must be the supported English ISO for either pack. Do not substitute
+a Korean Vista ISO. An extracted USA ROM can replace `--sdk-msi` with
+`--rom /path/PPC_USA_GSM_VGA_VR.BIN`. The Korean ROM adds Korean lunar-calendar
+data; USA packs do not include it. Font selection remains a separate launcher
+setting.
+
+1. Copy the generated ZIP to the Android device. Do not unzip it.
+2. Open **Start → Settings → Personal → Resource pack → Import** and select the ZIP.
+3. To follow the device language, open **Start → Settings → System → Language**
+   and select **System language**. Select **한국어** or **English** to override it.
+
+In Korean UI, the same paths are **시작 → 설정 → 개인 → 리소스팩 → 가져오기**
+and **시작 → 설정 → 시스템 → 언어 → 시스템 언어**. Existing explicit language
+choices remain unchanged after an update; select **System language** to clear one.
+SDK apps use the launcher's selected pack; do not import a second pack into them.
+
 ## Edit a pack
 
 Format **2** contains `pack.json` and mapped files at the ZIP root. Each
