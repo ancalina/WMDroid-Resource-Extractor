@@ -70,8 +70,13 @@ python3 extract_pack.py --vista-iso /path/vista_x64.iso \
 
 영어 UI에서는 **Start → Settings → Personal → Resource pack → Import**와
 **Start → Settings → System → Language → System language**로 표시됩니다.
-업데이트해도 기존에 직접 선택한 언어는 유지됩니다. 기기 언어를 따르려면 **시스템 언어**를 선택하세요.
+이번 업데이트에서는 기존 언어 선택을 한 번만 초기화합니다. 그 뒤에 선택한 언어는 재시작하거나 업데이트해도 유지됩니다.
+기기 언어를 따르려면 **시스템 언어**를 선택하세요.
 SDK 앱도 런처에 적용한 팩을 사용합니다. SDK 앱에 별도의 팩을 넣을 필요는 없습니다.
+
+가져오기를 누르면 ZIP 선택기가 열립니다. 아래는 팩 적용을 마친 화면입니다.
+
+<img src="docs/images/resource-pack-ko.png" alt="리소스팩 적용 중 상태와 가져오기 버튼" width="320">
 
 ## 팩 편집
 

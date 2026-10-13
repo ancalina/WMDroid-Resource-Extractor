@@ -97,9 +97,14 @@ setting.
    and select **System language**. Select **한국어** or **English** to override it.
 
 In Korean UI, the same paths are **시작 → 설정 → 개인 → 리소스팩 → 가져오기**
-and **시작 → 설정 → 시스템 → 언어 → 시스템 언어**. Existing explicit language
-choices remain unchanged after an update; select **System language** to clear one.
+and **시작 → 설정 → 시스템 → 언어 → 시스템 언어**. This update clears the old language
+choice once. Later selections survive restarts and updates; select **System language**
+to clear a selection.
 SDK apps use the launcher's selected pack; do not import a second pack into them.
+
+Import opens the ZIP picker. The screenshot shows a pack already applied.
+
+<img src="docs/images/resource-pack-en.png" alt="Resource pack settings: pack active and Import command" width="320">
 
 ## Edit a pack
 
