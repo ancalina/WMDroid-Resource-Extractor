@@ -106,6 +106,8 @@ Import opens the ZIP picker. The screenshot shows a pack already applied.
 
 <img src="docs/images/resource-pack-en.png" alt="Resource pack settings: pack active and Import command" width="320">
 
+<img src="docs/images/language-en.png" alt="Language settings with System language selected as an available option" width="320">
+
 ## Edit a pack
 
 Format **2** contains `pack.json` and mapped files at the ZIP root. Each
