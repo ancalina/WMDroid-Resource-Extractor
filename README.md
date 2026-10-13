@@ -102,11 +102,24 @@ choice once. Later selections survive restarts and updates; select **System lang
 to clear a selection.
 SDK apps use the launcher's selected pack; do not import a second pack into them.
 
-Import opens the ZIP picker. The screenshot shows a pack already applied.
+The screens below use a fresh instance without a resource pack. The yellow
+outline marks the next button. **Import** opens the ZIP picker.
 
-<img src="docs/images/resource-pack-en.png" alt="Resource pack settings: pack active and Import command" width="320">
+1. Open Start.
 
-<img src="docs/images/language-en.png" alt="Language settings with System language selected as an available option" width="320">
+<img src="docs/images/open-start-en.png" alt="1. Open Start." width="320">
+
+2. Select Settings.
+
+<img src="docs/images/open-settings-en.png" alt="2. Select Settings." width="320">
+
+3. On the Personal tab, select Resource pack.
+
+<img src="docs/images/open-resource-pack-en.png" alt="3. On the Personal tab, select Resource pack." width="320">
+
+4. Select Import, then choose the generated ZIP.
+
+<img src="docs/images/resource-pack-en.png" alt="4. Select Import, then choose the generated ZIP." width="320">
 
 ## Edit a pack
 

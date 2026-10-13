@@ -74,11 +74,24 @@ python3 extract_pack.py --vista-iso /path/vista_x64.iso \
 기기 언어를 따르려면 **시스템 언어**를 선택하세요.
 SDK 앱도 런처에 적용한 팩을 사용합니다. SDK 앱에 별도의 팩을 넣을 필요는 없습니다.
 
-가져오기를 누르면 ZIP 선택기가 열립니다. 아래는 팩 적용을 마친 화면입니다.
+아래는 개인 설정과 리소스팩이 없는 초기 화면입니다. 노란 테두리로 표시한 버튼을
+차례로 누르세요. **가져오기**를 누르면 ZIP 선택기가 열립니다.
 
-<img src="docs/images/resource-pack-ko.png" alt="리소스팩 적용 중 상태와 가져오기 버튼" width="320">
+1. 시작을 누릅니다.
 
-<img src="docs/images/language-ko.png" alt="시스템 언어 선택 항목이 있는 언어 설정 화면" width="320">
+<img src="docs/images/open-start-ko.png" alt="1. 시작을 누릅니다." width="320">
+
+2. 설정을 선택합니다.
+
+<img src="docs/images/open-settings-ko.png" alt="2. 설정을 선택합니다." width="320">
+
+3. 개인 탭에서 리소스팩을 선택합니다.
+
+<img src="docs/images/open-resource-pack-ko.png" alt="3. 개인 탭에서 리소스팩을 선택합니다." width="320">
+
+4. 가져오기를 누르고 생성한 ZIP을 선택합니다.
+
+<img src="docs/images/resource-pack-ko.png" alt="4. 가져오기를 누르고 생성한 ZIP을 선택합니다." width="320">
 
 ## 팩 편집
 
